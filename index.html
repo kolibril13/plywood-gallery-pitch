@@ -116,6 +116,20 @@
 				---
 
 				<div style="font-size: 30px"> Next: Installation and Quickstart.</div>
+				<pre><code data-trim data-noescape  data-line-numbers="1|2|3-4|5|6-7|8">
+				$ pip install plywood-gallery
+				$ python 
+				>>> from plywood_gallery import quickstart, generate_html
+				>>> quickstart()
+				>>> # Now: details in gallery_config.yaml
+				>>> generate_html(yaml_file="gallery_config.yaml", 
+					html_file="index.html")
+				>>> # Now: Open Index.html
+				</code></pre>
+				
+
+
+
 
 				---
 
